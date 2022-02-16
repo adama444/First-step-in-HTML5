@@ -1,0 +1,38 @@
+<!-- Auteur : Adama SAMAKE -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Les Formulaires en HTML5</title>
+  </head>
+  <body>
+    <h1>Formulaire</h1>
+    <p>Veuillez remplir tous les champs de ce formulaires.</p>
+    <form id="formContact" action="file2.html">
+      <div>
+        <div>
+          <label for="firstName">Prénom</label>
+          <input id="firstName" type="text" name="firstName" required />
+        </div>
+        <div>
+            <label for="lastName">Nom de famille</label>
+            <input id="lastName" type="text" name="lastName" required />
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input id="email" type="email" name="email" required />
+          </div>
+      </div>
+
+      <div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+        </div>
+      </div>
+
+      <!-- <input type="submit" value="Envoyer"> -->
+      <button type="submit">Envoyer</button>
+    </form>
+  </body>
+</html>

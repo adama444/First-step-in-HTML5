@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Les Balises HTML5 pour du contenu multimédia</title>
+  </head>
+  <body>
+    <h1>Bienvenue</h1>
+    <p><a href="download/document.pdf" download="doc-example.pdf">Télécharger le document PDF</a></p>
+    <figure>
+      <img src="img/blogArticle.jpg" alt="Image du blog" />
+      <figcaption>Un petit titre pour l'image</figcaption>
+    </figure>
+    <h2>Image avec une hauteur de 200px</h2>
+    <img src="img/blogArticle.jpg" alt="Image du blog" height="200" />
+    <h2>Image avec une largeur de 50% la largeur du navigateur</h2>
+    <p><a href="download/images.zip">Telecharger l'image</a></p>
+    <img src="img/blogArticle.jpg" alt="Image du blog" width="50%" />
+    <h2>Vidéo</h2>
+    <video src="video/html5.mp4" controls>
+      <p>Place reservé à l'affichage d'une vidéo</p>
+    </video>
+    <h2>Vidéo <a href="https://www.youtube.com/" target="_blank">youtube</a></h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/cCVzMt9fVBY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <h2>Fichier audio</h2>
+    <audio src="audio/JAdoreLesGens.mp3" controls>
+      <p>Votre navigateur ne peut pas jouer ce fichier audio</p>
+    </audio>
+  </body>
+</html>
